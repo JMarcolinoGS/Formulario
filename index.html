@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Meu Formulario</title>
+        <link href="css/style.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    </head>
+    <body>
+
+        <div class="box"> <!--para agrupar os  elementos em um unico lugar-->
+             <div class="form">
+                <form action="">
+                    <fieldset>
+                        <legend><b>Formulario</b></legend>
+                        <br>
+                        
+                        <div class="inputbox">
+                            <input type="text" name="nome" id="nome" class="Inputuser" required>
+                            <label for="nome"class="Labelinput">Nome Completo</label>
+                        </div>
+                        <br>
+
+                        <div class="inputbox">
+                            <input type="email" name="email" id="email" class="Inputuser" required>
+                            <label for="nome"class="Labelinput">Email</label>
+                        </div>
+                        <br>
+
+                        <div class="inputbox">
+                            <input type="tel" name="tel" id="tel" class="Inputuser" required>
+                            <label for="nome"class="Labelinput">Telefone</label>
+                        </div>
+                        
+                        <p>Sexo:</p>
+                        <input type="radio" name="genero" value="masculino" required>
+                        <label for="nome">Masculino</label>
+                        <input type="radio" name="genero" value="feminino" required>
+                        <label for="nome">Feminino</label>
+                        <br>
+                        <input type="radio" name="genero" value="outro" required>
+                        <label for="nome">Outro</label> 
+                        <br><br>
+
+                        <div class="inputbox">
+                            <label for="nome"><b>Data de Nascimento:</b></b></label>
+                            <input type="date" name="data_Nascimento" id="date" class="Inputuser" required>
+                        </div>  
+                        <br>
+                    
+                        
+                    <input type="submit" name="submit" id="submit">
+
+
+                        
+                            
+                        
+                    </fieldset>
+                
+
+                </form>
+            </div> <!--form-->
+        </div>>
+        
+    </body>
+</html>

@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:linear-gradient(to right, rgb(106,90,205),rgb(0,0,255));
+}
+
+.box{
+    position: absolute; /*para oculpar o tamnho dela msm */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(81, 77, 90, 0.452);
+    padding: 15px; /*preenchimento*/
+    border-radius: 20px;
+    width: 20%;
+    color: white;
+}
+
+fielset{
+    border:1px solid darkviolet;
+}
+
+legend{
+    border: 1px solid darkviolet;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(44, 44, 207);
+    border-radius: 10px;
+    
+}
+.inputbox{
+    position: relative;
+}
+.Inputuser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.Labelinput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.Inputuser:focus ~ .Labelinput{
+    top: -20px;
+    font-size: 12px;
+    color: violet;
+}
+
+
+
